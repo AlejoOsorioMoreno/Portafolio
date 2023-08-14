@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#right p{
+    font-size: 20px;
+    font-weight: 600;
+}
+#Icons img{
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#Left{
+    width: 50%;
+}
+#img{
+    background-color: #ffd10d;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+#second-Container{
+    text-align: center;
+}
+
+

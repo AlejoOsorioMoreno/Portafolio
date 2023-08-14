@@ -5,14 +5,15 @@ import Instagram from '../Home/images/instagram_1384031.png'
 import GitHub from '../Home/images/github_2111432.png'
 import Twitter from '../Home/images/Twitter.png'
 import { NavLink } from 'react-router-dom'
+import { Footer } from '../../Footer/Footer'
 export const Home = () => {
   return (
     <>
         <Header/>
-    <main className='mt-20'>
+    <main className='mt-56'>
       <section id='Left' className='w-1/2 ml-28 mt-48 font-semibold'>
         <p className='text-5xl '>Hi There</p>
-        <p className='text-5xl mt-6'>I'm Alejandro <span id='LastName'>Osorio Moreno</span></p>
+        <p className='text-5xl mt-6'>I´m Alejandro<span id='LastName'>Osorio Moreno</span> </p>
         <p className='text-3xl mt-6'>I am into <span id='Develop'>Web Develop</span></p>
         <button className='mt-6'><NavLink to='/About'>About Me</NavLink></button>
         <section className='flex gap-2 ml-1'>
@@ -26,6 +27,7 @@ export const Home = () => {
 
       </section>
     </main>
+    <Footer/>
     </>
   )
 }

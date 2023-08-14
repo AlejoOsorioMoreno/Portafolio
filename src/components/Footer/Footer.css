@@ -1,0 +1,16 @@
+footer{
+    background-color: #222;
+    color: #fff;
+}
+#header-footer h2{
+    background-color: #4c5560;
+}
+#header-footer img{
+    border-radius: 100%;
+    width: 100pX;
+}
+#header-footer p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
