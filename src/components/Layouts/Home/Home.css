@@ -1,0 +1,16 @@
+main{
+    height: 100vh;
+    display: flex;
+}
+#left{
+    
+    width: 50%;
+}
+#right{
+    width: 50%;
+}
+#Image{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
