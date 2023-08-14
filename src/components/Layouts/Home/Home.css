@@ -1,16 +1,32 @@
 main{
-    height: 100vh;
+    height: 70vh;
     display: flex;
 }
 #left{
     
     width: 50%;
 }
+#Left button{
+    border: solid;
+    border-color: #11007d;
+    background-color: #11007d;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 40px;
+    
+}
 #right{
     width: 50%;
 }
 #Image{
+    background-color: #ffd10d;
     width: 500px;
     height: 500px;
     border-radius: 100%;
+}
+#LastName{
+    color: #ff7504;
+}
+#Develop{
+    color: #75201f;
 }
