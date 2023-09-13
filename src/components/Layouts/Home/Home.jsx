@@ -15,7 +15,7 @@ export const Home = () => {
         <p className='text-5xl '>Hi There</p>
         <p className='text-5xl mt-6'>I´m Alejandro<span id='LastName'>Osorio Moreno</span> </p>
         <p className='text-3xl mt-6'>I am into <span id='Develop'>Web Develop</span></p>
-        <button className='mt-6'><NavLink to='/About'>About Me</NavLink></button>
+        <button className='mt-6'><NavLink to='/AboutMe'>About Me</NavLink></button>
         <section className='flex gap-2 ml-1'>
           <a href=""><img className='w-8 mt-5' src={Instagram} alt=""/></a>
           <a href=""><img className='w-8 mt-5' src={GitHub} alt=""/></a>
