@@ -6,6 +6,8 @@ export default function Navbar() {
         <ul className='flex items-center mr-40 text-lg'>
             <li><NavLink to='/'>Inicio</NavLink></li>
             <li><NavLink to='/About'>About</NavLink></li>
+            <li><NavLink to='/Projects'>Project</NavLink></li>
+            <li><NavLink to='/Tienda'>Tienda</NavLink></li>
         </ul>
     </nav>
   )

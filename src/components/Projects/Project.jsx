@@ -1,5 +1,4 @@
 import Header from '../Header/Header'
-import Music from './images/Music.png'
 export const Project = () => {
   return (
     <>
@@ -13,7 +12,7 @@ export const Project = () => {
             <h2 className=' text-center mt-10 rounded-t-lg pt-5 pb-5 text-2xl font-extrabold '>Blueasy</h2>
             </div>
             <div>
-            <img className='w-96' src={Music} alt="" />
+            
             <p className='text-center mt-6'>Modeling of a web page called MUSIC, which I did<br/> 
             at SENA, to learn different knowledge in modeling <br/>
             and the use of html and css, with the help of GitHub <br/>
@@ -31,7 +30,6 @@ export const Project = () => {
             <h2 className=' text-center mt-10 rounded-t-lg pt-5 pb-5 text-2xl font-extrabold '>Blueasy</h2>
             </div>
             <div>
-            <img className='w-96' src={Music} alt="" />
             <p className='text-center mt-6'>Modeling of a web page called MUSIC, which I did<br/> 
             at SENA, to learn different knowledge in modeling <br/>
             and the use of html and css, with the help of GitHub <br/>
@@ -49,7 +47,6 @@ export const Project = () => {
             <h2 className=' text-center mt-10 rounded-t-lg pt-5 pb-5 text-2xl font-extrabold '>Blueasy</h2>
             </div>
             <div>
-            <img className='w-96' src={Music} alt="" />
             <p className='text-center mt-6'>Modeling of a web page called MUSIC, which I did<br/> 
             at SENA, to learn different knowledge in modeling <br/>
             and the use of html and css, with the help of GitHub <br/>
