@@ -57,7 +57,7 @@ export const Project = () => {
             <img className='h-60 w-96' src={img3} alt="" />
             <p className='text-center mt-6'>Modeling of a web page called MUSIC, which I did<br/> 
             at SENA, to learn different knowledge in modeling <br/>
-            and the use of html and css, with the help of GitHub <br/>
+            and the use of html and css, with the help of GitHub a<br/>
             and Netlify to upload the repository and deploy</p>
             </div>
             <div id='Buttons' className='flex justify-center mt-5'>
