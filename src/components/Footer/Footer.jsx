@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 import './Footer.css'
 import memojialejo from './images/alejomemoji.webp'
 
@@ -14,7 +5,7 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <section className='grid justify-center text-center '>
+        <section className='grid justify-center text-center w-full'>
           <h1 className='text-4xl tex font-bold mt-10'>Contact</h1>
           <p className='mt-6 font-semibold gap-4 text-lg'>Thank you for scrolling so far!</p>  
           <p className='text-lg'>Let´s get in touch</p>

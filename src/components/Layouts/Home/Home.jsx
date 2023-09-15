@@ -17,8 +17,8 @@ export const Home = () => {
         <p className='text-3xl mt-6'>I am into <span id='Develop'>Web Develop</span></p>
         <button className='mt-6'><NavLink to='/About'>About Me</NavLink></button>
         <section className='flex gap-2 ml-1'>
-          <a href=""><img className='w-8 mt-5' src={Instagram} alt=""/></a>
-          <a href=""><img className='w-8 mt-5' src={GitHub} alt=""/></a>
+          <a href="https://www.instagram.com/alejol_0/"><img className='w-8 mt-5' src={Instagram} alt=""/></a>
+          <a href="https://github.com/AlejoOsorioMoreno"><img className='w-8 mt-5' src={GitHub} alt=""/></a>
           <a href=""><img className='w-8 mt-5' src={Twitter} alt=""/></a>
         </section>
       </section>

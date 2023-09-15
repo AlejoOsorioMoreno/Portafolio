@@ -27,7 +27,7 @@ export const About = () => {
           </NavLink>
         </div>
         <div id='right' className='ml-20 self-center'>
-          <h2 className='text-xl font-bold'>Hi I´m Alejandro Osorio Moreno</h2>
+          <h2 className='text-3xl font-bold '>Hi I´m Alejandro Osorio Moreno</h2>
           <p>an aspiring software developer currently honing my skills at SENA in</p>
           <p>software analysis and development. Since I wrote my first line of code,</p>
           <p>I´ve been captivated by the world of programming and its endless</p>
