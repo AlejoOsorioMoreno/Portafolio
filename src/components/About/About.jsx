@@ -5,7 +5,7 @@ import '../About/About.css';
 import css from './images/css-3.png'
 import html from './images/html.png'
 import javascript from './images/js.png'
-import react from './images/react.png'
+import react from './images/React.png'
 import java from './images/java.png'
 import nodejs from './images/nodejs.png'
 import { Footer } from '../Footer/Footer';
