@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import React from 'react';
+
 import Navbar from '../Navbar/Navbar';
 import './Header.css';
 import react from './images/React.png';
@@ -7,6 +7,7 @@ import react from './images/React.png';
 // eslint-disable-next-line react/prop-types
 export default function Header({ cartCount, selectedProducts }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  
 
   const viewCart = () => {
     setIsModalOpen(true);
@@ -43,14 +44,9 @@ export default function Header({ cartCount, selectedProducts }) {
               <div className="modal-overlay" onClick={closeCart}></div>
               <div className="modal h-auto">
                 <div className="modal-content flex flex-col items-center">
-                  <button
-                    className="close-button bg-violet-950 text-[#e23434] w-96 rounded-md text-2xl font-bold"
-                    onClick={closeCart}
-                  >
-                    Close car
-                  </button>
+                  
                   <br />
-                  <ul className="bg-[#9c7ac5] flex justify-center flex-col items-center w-96">
+                  <ul className="p-10 bg-white flex justify-center flex-col  w-96 rounded-xl">
                     {selectedProducts.map((product, i) => (
                       <div key={i}> {/* Agregar un div como elemento padre */}
                         <li className="text-center w-96">
@@ -64,13 +60,18 @@ export default function Header({ cartCount, selectedProducts }) {
                           />
                         </li>
                         <li>
-                          {product.price}
+                          {product.price }
                         </li>
-                        <hr className="h-[2px] bg-black w-96" />
+                        <hr className="h-[2px] bg-black" />
                       </div>
                     ))}
                   </ul>
-
+                  <button
+                    className="close-button bg-white m-10 px-10 py-3 rounded-md text-2xl font-bold"
+                    onClick={closeCart}
+                  >
+                    cerrar
+                  </button>
                 </div>
               </div>
             </div>

@@ -42,9 +42,9 @@ export const Project = () => {
             and Netlify to upload the repository and deploy</p>
             </div>
             <div id='Buttons' className='flex justify-center mt-5'>
-            <button className='rounded-e rounded-s p-3 bg-fuchsia-400'><a href="https://github.com/AlejoOsorioMoreno/Blueasy.git" target="_blank">Source code</a></button>
+            <button className='rounded-e rounded-s p-3 bg-fuchsia-400'><a href="https://github.com/AlejoOsorioMoreno/Blueasy.git" target="_blank" rel="noreferrer">Source code</a></button>
 
-            <button className='rounded-e rounded-s p-3 bg-fuchsia-400 ml-8'><a href="https://cute-lamington-802fd8.netlify.app/" target="_blank">View WebSide</a></button>
+            <button className='rounded-e rounded-s p-3 bg-fuchsia-400 ml-8'><a href="https://cute-lamington-802fd8.netlify.app/" target="_blank" rel="noreferrer">View WebSide</a></button>
             </div>
           </div>
         </section>
